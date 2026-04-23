@@ -30,7 +30,7 @@ export default function Gallery() {
         </div>
       ))}
       <p className={styles.footer}>For assignments and inquiries:{" "}
-        <a href="mailto:alex.capece@gmail.com">alex.capece@gmail.com</a>
+        <a href="mailto:alex.capece@gmail.com" className={styles.underline}>alex.capece@gmail.com</a>
       </p>
     </div>
   );
