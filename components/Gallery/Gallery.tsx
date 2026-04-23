@@ -29,8 +29,11 @@ export default function Gallery() {
           <p className={styles.caption}>{img.caption}</p>
         </div>
       ))}
-      <p className={styles.footer}>For assignments and inquiries:{" "}
+      <p className={styles.footer}>
+        For assignments and inquiries:{" "}
         <a href="mailto:alex.capece@gmail.com" className={styles.underline}>alex.capece@gmail.com</a>
+        {" "}
+        (<a href="tel:+12025060264" className={styles.underline}>+1 202-506-0264</a>)
       </p>
     </div>
   );
