@@ -38,6 +38,12 @@ export default function AboutPage() {
           >
             alex.capece@gmail.com
           </a>
+          <a
+            href="tel:+12025060264"
+            className={styles.contactEmail}
+          >
+            +1 202-506-0264
+          </a>
         </div>
 
         <hr className={styles.divider} />

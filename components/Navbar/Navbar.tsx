@@ -47,7 +47,7 @@ export default function Navbar() {
             href="/about"
             className={pathname === "/about" ? styles.active : ""}
           >
-            About&nbsp;/&nbsp;Contact
+            About
           </Link>
         </li>
       </ul>

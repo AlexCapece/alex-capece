@@ -40,6 +40,8 @@
 
 .contact {
   margin-top: 48px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contactLabel {
