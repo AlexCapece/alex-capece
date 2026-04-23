@@ -40,3 +40,15 @@
   color: var(--muted);
   font-family: var(--font-jost), sans-serif;
 }
+
+.footer {
+  margin-top: 24px;
+  /* padding: 24px; */
+  font-family: var(--font-jost);
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.underline {
+  text-decoration: underline;
+}
